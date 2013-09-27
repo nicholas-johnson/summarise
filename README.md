@@ -1,6 +1,19 @@
 # Summarise
 
-TODO: Write a gem description
+Summarise is a small gem which extends String, allowing you to create summaries of strings while respecting word boundaries.
+
+## Usage
+
+    str = "Summarise is a small gem which extends String, allowing you to create summaries."
+
+    str.summarise 25
+    => "Summarise is a small gem which"
+
+    str.summarise 25, :suffix => "..."
+    => "Summarise is a small gem which..."
+
+    str.summarise 5000, :suffix => "..."
+    => "Summarise is a small gem which extends String, allowing you to create summaries."
 
 ## Installation
 
@@ -16,9 +29,6 @@ Or install it yourself as:
 
     $ gem install summarise
 
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
