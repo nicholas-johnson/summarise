@@ -10,7 +10,7 @@ module Summarise
       summary
     end
 
-    def summarizable?(length=200)
+    def summarisable?(length=200)
       return self.summarise(length) != self
     end
 
