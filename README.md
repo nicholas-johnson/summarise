@@ -1,6 +1,6 @@
 # Summarise
 
-Summarise is a small gem which extends String, allowing you to create summaries of strings while respecting word boundaries, something I need to do a lot.
+Summarise is a small gem which extends String, allowing you to create summaries of strings and html fragments while respecting word boundaries, something I need to do a lot.
 
 ## Usage
 
@@ -45,6 +45,9 @@ Or install it yourself as:
 
     $ gem install summarise
 
+## Requires
+
+The gem uses Nokogiri to handle html fragments.
 
 ## Contributing
 
